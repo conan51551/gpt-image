@@ -115,7 +115,7 @@ const Chat = (props: ChatProps) => {
           </div>
         </CardContent>
         <CardFooter>
-          <Button disabled={!imageBase64} className="w-full" onClick={handleGenerate}>
+          <Button  className="w-full" onClick={handleGenerate}>
             Generate
           </Button>
         </CardFooter>
